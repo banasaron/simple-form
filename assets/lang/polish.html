@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prosty formularz</title>
+
+    <!-- CSS  -->
+    <!-- <link rel="stylesheet" href="assets/css/bootstrap.css"> -->
+    <!-- <link rel="stylesheet" href="assets/css/bootstrap-grid.css"> -->
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+    <div id="container">
+        <span id="containerdrag"></span>
+        <h1>ankieta</h1>
+        <a href="../../index.html">
+            <div class="languages english"></div>
+        </a>
+        <form action="#">
+            <div class="input">
+                <input type="text" maxlength="17" placeholder="Imię.." id="userName">
+                <p></p>
+            </div>
+            <div class="input">
+                <input type="text" maxlength="30" placeholder="Nazwisko.." id="userSurname">
+                <p></p>
+            </div>
+            <div class="input">
+                <input type="number" minlength="0" placeholder="Wiek.." id="userAge">
+                <p></p>
+            </div>
+            <div class="input">
+                <input type="text" maxlength="30" placeholder="Email.." id="userEmail">
+                <p></p>
+            </div>
+            <div class="input">
+                <input type="password" minlength="8" maxlength="20" placeholder="Hasło.." id="userPwd">
+                <p></p>
+            </div>
+            <div class="input">
+                <input type="text" maxlength="30" placeholder="Adres.." id="userAdress">
+                <p></p>
+            </div>
+            <div class="input">
+                <input type="text" maxlength="6" placeholder="Kod pocztowy.." id="userZipCode">
+                <p></p>
+            </div>
+            <div class="buttons">
+                <button type="reset" id="reset">resetuj</button>
+                <button type="button" id="check">sprawdź</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- JavaScript  -->
+    <script src="../js/dragging.js"></script>
+    <script src="../js/validationPL.js"></script>
+</body>
+</html>

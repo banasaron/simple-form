@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple form</title>
+
+    <!-- CSS  -->
+    <!-- <link rel="stylesheet" href="assets/css/bootstrap.css"> -->
+    <!-- <link rel="stylesheet" href="assets/css/bootstrap-grid.css"> -->
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+    <div id="container">
+        <span id="containerdrag"></span>
+        <h1>form</h1>
+        <a href="assets/lang/polish.html">
+            <div class="languages polish"></div>
+        </a>
+        <form action="#">
+            <div class="input">
+                <input type="text" maxlength="17" placeholder="Name.." id="userName">
+                <p></p>
+            </div>
+            <div class="input">
+                <input type="text" maxlength="30" placeholder="Surname.." id="userSurname">
+                <p></p>
+            </div>
+            <div class="input">
+                <input type="number" minlength="0" placeholder="Age.." id="userAge">
+                <p></p>
+            </div>
+            <div class="input">
+                <input type="text" maxlength="30" placeholder="Email.." id="userEmail">
+                <p></p>
+            </div>
+            <div class="input">
+                <input type="password" minlength="8" maxlength="20" placeholder="Password.." id="userPwd">
+                <p></p>
+            </div>
+            <div class="input">
+                <input type="text" maxlength="30" placeholder="Adress.." id="userAdress">
+                <p></p>
+            </div>
+            <div class="input">
+                <input type="text" maxlength="6" placeholder="Zip code.." id="userZipCode">
+                <p></p>
+            </div>
+            <div class="buttons">
+                <button type="reset" id="reset">reset</button>
+                <button type="button" id="check">check</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- JavaScript  -->
+    <script src="assets/js/dragging.js"></script>
+    <script src="assets/js/validation.js"></script>
+</body>
+</html>
