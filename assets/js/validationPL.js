@@ -127,7 +127,7 @@ document.querySelector("#check").addEventListener('click', ()=>{
         p[6].textContent = "OK!";
     }else{
         color(6, "red");
-        p[6].textContent = "Twój kod pocztowy nie jest poprawny, oto przykład: 123-45";
+        p[6].textContent = "Twój kod pocztowy nie jest poprawny, oto przykład: 12-345";
     }
 });
 
